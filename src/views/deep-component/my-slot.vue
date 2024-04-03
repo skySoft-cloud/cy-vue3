@@ -1,9 +1,11 @@
 <script setup>
-import LayoutPage from './components/layout-page.vue'
+
 </script>
 
 <template>
-    <LayoutPage />
+<div>
+  <slot name="aYun" duoDuo="朵朵1岁啦"></slot>
+</div>
 </template>
 
 <style scoped>

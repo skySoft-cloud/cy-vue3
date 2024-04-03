@@ -1,0 +1,17 @@
+@import "normalize.css";
+
+html,body,#app,.layout-page{
+  height: 100%;
+}
+.layout-page{
+  .el-container{
+    height: 100%;
+    .el-aside{
+      border-right: 1px solid #eeeeee;
+      .el-menu {
+        border-right: none;
+        height: 100%;
+      }
+    }
+  }
+}
